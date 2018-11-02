@@ -1,0 +1,7 @@
+"*":
+  core:
+    telemetryConsent: "no"
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "f1633278-454a-4aee-8c78-2e148fce9eb3"
