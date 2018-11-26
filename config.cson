@@ -2,6 +2,12 @@
   core:
     telemetryConsent: "no"
   editor:
+    fontFamily: " Monaco, Menlo, DejaVu Sans Mono, Inconsolata, Consolas,  monospace"
     showIndentGuide: true
   "exception-reporting":
     userId: "f1633278-454a-4aee-8c78-2e148fce9eb3"
+  "platformio-ide-terminal":
+    toggles: {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

@@ -19,3 +19,37 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+'.source.css':
+  'font-face':
+    'prefix': 'font-face'
+    "body": "@font-face {
+            font-family: 'FONT_NAME'; \n
+            src: url('FONT_NAME.woff2') format('woff2'),\n
+                 url('FONT_NAME.woff') format('woff');\n
+            font-weight: normal;\n
+            font-style: normaln
+
+    }"
+
+'.source.js':
+  'React Native View':
+    'prefix': 'view'
+    'body': '<View>$1</View>'
+  'React Native ScrollView':
+    'prefix': 'scrollview'
+    'body': '<ScrollView>$1</ScrollView>'
+  'React Native Text':
+    'prefix': 'text'
+    'body': '<Text>$1</Text>'
+  'React Native TextInput':
+    'prefix': 'textinput'
+    'body': '<TextInput>$1</TextInput>'
+  'React Native StyleSheet':
+    'prefix': 'StyleSheet'
+    'body': 'const styles = StyleSheet.create({\n$1\n})'
+  'React Native START FILES':
+    'prefix': 'import react'
+    'body':'import React from "react";\nimport { StyleSheet, Text, View } from "react-native";'
+  'Section Comment':
+    'prefix':'//'
+    'body':'/*$1*/'
